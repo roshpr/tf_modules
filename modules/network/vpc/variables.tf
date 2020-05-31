@@ -2,13 +2,13 @@ variable "name" {
   default = "test"
 }
 variable "vpcsettings" {
-  type = "map"
+  type = map
   default = {
     "vpc_cidr" = "10.10.0.0/16"
   }
 }
 variable "tags" {
-  type = "map"
+  type = map
   default = {
     "deployment_id" = "1232"
   }

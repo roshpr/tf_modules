@@ -6,7 +6,7 @@ output "config" {
 locals {
   jfm_config = {
     constants = {
-      blockstroragetypes = local.blockstroragetypes[aws]
+      blockstroragetypes = local.blockstroragetypes["aws"]
     }
   }
 
