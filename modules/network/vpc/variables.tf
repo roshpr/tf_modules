@@ -5,6 +5,7 @@ variable "vpcsettings" {
   type = map
   default = {
     "vpc_cidr" = "10.10.0.0/16"
+    "vpc_secondary_cidr" = "20.20.20.0/24"
   }
 }
 variable "tags" {
